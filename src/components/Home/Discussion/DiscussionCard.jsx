@@ -24,7 +24,7 @@ const DiscussionCard = () => {
                             </p>
                         </div>
                         <div>
-                            <p>2 min ago</p>
+                            <p className="text-blue-700">2 min ago</p>
                         </div>
                     </div>
 
