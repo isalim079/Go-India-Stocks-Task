@@ -13,7 +13,7 @@ const Sidebar = ({ children }) => {
 
     return (
         <div className="flex overflow-x-hidden">
-            <div>
+            <div className="">
                 <div
                     className={`fixed h-screen bg-blue-950 flex flex-col justify-between ${
                         open ? "w-52 " : ""
@@ -105,7 +105,7 @@ const Sidebar = ({ children }) => {
             </div>
 
             {/* right side content */}
-            <div className={`${open ? "ml-56" : ""} w-full `}>{children}</div>
+            <div className={`${open ? "md:ml-56" : ""} w-full `}>{children}</div>
         </div>
     );
 };
