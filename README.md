@@ -5,7 +5,8 @@
 After cloning the project, open in vs code. Then run in terminal:
 
 ```:
-npm run dev
+1. npm i
+2. npm run dev
 
 (make sure your terminal is in folded "Go India Stocks Task)
 
